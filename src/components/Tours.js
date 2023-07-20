@@ -10,13 +10,13 @@ const Tours =()=>{
       <div className="section-center featured-center">
 
         {pours.map((tour)=>{
-        const{id, number, pics, date, tittle,details, duration, location, cost}=tour
+        const{id, pics, date, tittle,details, duration, location, cost}=tour
         return(
           <article className="tour-card" key={id}>
             
           <div className="tour-img-container">
             <img src={pics} className="tour-img" alt={tittle}/>
-            <span className="num">#{number}</span>
+            <span className="num">#{id}</span>
             <p className="tour-date">{date}</p>
           </div>
           <div className="tour-info">
