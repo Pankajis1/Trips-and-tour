@@ -562,3 +562,18 @@ Navbar
 h1{
   color : rgb(251, 251, 252);
 }
+
+.num{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  padding : 3px;
+  margin: 3px;
+
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background: lightblue;
+  color:#fff;
+
+}
